@@ -237,76 +237,6 @@ const products = [
     price: "KSH 4,500",
     image: "https://i.ibb.co/D36HV7q/Whats-App-Image-2025-02-16-at-11-54-22-PM.jpg",
     category: "Custom Cakes",
-  },
-  {
-    id: "g1",
-    name: "Classic Money Bouquet",
-    description: "Elegant money bouquet arrangement perfect for special occasions and celebrations.",
-    image: "https://i.ibb.co/8LGP30sh/Whats-App-Image-2025-02-16-at-8-35-28-PM.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g2",
-    name: "Premium Money Arrangement",
-    description: "Luxurious money bouquet with artistic presentation and elegant design.",
-    image: "https://i.ibb.co/YB1K0BPG/Whats-App-Image-2025-02-16-at-8-35-27-PM-1.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g3",
-    name: "Deluxe Money Bouquet",
-    description: "Sophisticated money bouquet arrangement with premium presentation.",
-    image: "https://i.ibb.co/qYw7vPH1/Whats-App-Image-2025-02-16-at-8-35-27-PM.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g4",
-    name: "Royal Special Ocassion Gift",
-    description: "Exquisite money arrangement perfect for special celebrations.",
-    image: "https://i.ibb.co/Rk0YrCfy/Whats-App-Image-2025-02-16-at-8-35-26-PM-1.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g5",
-    name: "Luxury Gift Arrangement",
-    description: "Beautiful money arrangement with artistic presentation.",
-    image: "https://i.ibb.co/6RjS5F5F/Whats-App-Image-2025-02-16-at-8-35-26-PM.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g6",
-    name: "Elegant Money Boquet",
-    description: "Premium money bouquet with sophisticated design.",
-    image: "https://i.ibb.co/84SJLNQS/Whats-App-Image-2025-02-16-at-8-35-25-PM-2.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g7",
-    name: "Special Occasion Money Gift",
-    description: "Unique money arrangement for memorable celebrations.",
-    image: "https://i.ibb.co/f3S36NB/Whats-App-Image-2025-02-16-at-8-35-25-PM-1.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g8",
-    name: "Premium Gift Display",
-    description: "Elegant money bouquet with creative presentation.",
-    image: "https://i.ibb.co/JWDwX9mx/Whats-App-Image-2025-02-16-at-8-35-25-PM.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g9",
-    name: "Celebration Money Gift",
-    description: "Beautifully arranged money bouquet for special moments.",
-    image: "https://i.ibb.co/FQcSJqp/Whats-App-Image-2025-02-16-at-8-35-24-PM-1.jpg",
-    category: "Gifts & Money Bouquets"
-  },
-  {
-    id: "g10",
-    name: "Exclusive Money Bouquet",
-    description: "Premium money arrangement with luxurious presentation.",
-    image: "https://i.ibb.co/v45JrMHp/Whats-App-Image-2025-02-16-at-8-35-24-PM.jpg",
-    category: "Gifts & Money Bouquets"
   }
 ]
 
@@ -348,7 +278,7 @@ export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden">
       {/* Navigation */}
-      <nav className="fixed w-full bg-gradient-to-r from-blue-600 to-cyan-500 z-50">
+      <nav className="fixed w-full bg-gradient-to-r from-pink-500 to-orange-500 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Logo />
           <div className="hidden md:flex items-center gap-8 text-white">
@@ -361,7 +291,7 @@ export default function Home() {
                 {item}
               </button>
             ))}
-            <Button className="bg-white text-blue-600 hover:bg-blue-50" onClick={openWhatsApp}>
+            <Button className="bg-white text-pink-600 hover:bg-purple-50" onClick={openWhatsApp}>
               Order Now
             </Button>
           </div>
@@ -372,7 +302,7 @@ export default function Home() {
       {/* Hero Section */}
       <section
         ref={sectionRefs.home}
-        className="bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400 text-white pt-20 md:pt-24 w-full"
+        className="bg-gradient-to-br from-pink-600 via-purple-500 to-orange-400 text-white pt-20 md:pt-24 w-full"
       >
         <div className="container mx-auto px-4 py-8 md:py-24 grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left space-y-6">
@@ -431,12 +361,12 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] order-first md:order-last w-full">
+          <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] order-first md:order-last w-full rounded-lg overflow-hidden">
             <Image
-              src="https://i.ibb.co/q33SYBHf/image.png"
+              src="https://i.ibb.co/Q7VfzSDT/image.png"
               alt="Délice de Hilda signature cakes"
               fill
-              className="object-contain"
+              className="object-contain rounded-lg"
               priority
             />
           </div>
@@ -452,11 +382,11 @@ export default function Home() {
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2">
               <div
-                className="relative aspect-[3/4] max-w-sm mx-auto cursor-pointer"
+                className="relative aspect-[3/4] max-w-sm mx-auto cursor-pointer rounded-lg overflow-hidden"
                 onClick={() => setIsImageModalOpen(true)}
               >
                 <Image
-                  src="https://i.ibb.co/t2pCByT/Whats-App-Image-2025-01-22-at-12-01-52-PM.jpg"
+                  src="https://i.ibb.co/hRPFBzwf/Whats-App-Image-2025-03-19-at-2-59-37-PM-1.jpg"
                   alt="Délice de Hilda Creator"
                   fill
                   className="rounded-lg shadow-lg object-cover"
@@ -465,7 +395,7 @@ export default function Home() {
               <ImageModal
                 isOpen={isImageModalOpen}
                 onClose={() => setIsImageModalOpen(false)}
-                src="https://i.ibb.co/t2pCByT/Whats-App-Image-2025-01-22-at-12-01-52-PM.jpg"
+                src="https://i.ibb.co/hRPFBzwf/Whats-App-Image-2025-03-19-at-2-59-37-PM-1.jpg"
                 alt="Délice de Hilda Creator"
               />
             </div>
