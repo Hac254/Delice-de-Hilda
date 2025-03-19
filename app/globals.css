@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    /* Primary Blues */
+    --primary: 215 100% 50%;    /* #0066FF - Vibrant Blue */
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary Colors */
+    --secondary: 200 96% 90%;   /* #E6F4FF - Soft Sky Blue */
+    --secondary-foreground: 215 100% 40%;
+
+    /* Accent Colors */
+    --accent: 190 90% 95%;      /* #E6FBFF - Light Cyan */
+    --accent-foreground: 215 100% 40%;
+
+    /* Background Colors */
+    --background: 0 0% 100%;    /* #FFFFFF */
+    --foreground: 215 50% 23%;  /* #264973 - Dark Blue */
+
+    /* UI Elements */
+    --muted: 215 20% 95%;      /* #F0F4F8 - Muted Blue */
+    --muted-foreground: 215 25% 40%;
+    --border: 215 20% 85%;
+    --input: 215 20% 85%;
+    --ring: 215 100% 50%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Chart Colors */
+    --chart-1: 215 100% 50%;   /* Primary Blue */
+    --chart-2: 190 80% 50%;    /* Cyan */
+    --chart-3: 230 80% 60%;    /* Royal Blue */
+    --chart-4: 200 90% 45%;    /* Ocean Blue */
+    --chart-5: 170 85% 45%;    /* Teal */
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+  html {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply min-h-screen bg-white text-gray-900;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+}
