@@ -241,7 +241,7 @@ const products = [
 ]
 
 const openWhatsApp = () => {
-  const phoneNumber = "+254738824713"
+  const phoneNumber = "+254757844772"
   const message = encodeURIComponent(
     "Hello Hilda's Cakes! 🎂✨\n\n" +
       "I am excited to order a delightful creation from your magical bakery. " +
