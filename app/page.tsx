@@ -459,7 +459,7 @@ export default function Home() {
             <ul className="space-y-2 text-sm opacity-80">
               <li>Migori Town, Calabash Hotel</li>
               <li>Tel: +254 725 275934</li>
-              <li>Email: carnicecakes@gmail.com</li>
+              <li>Email: delicedehilda@gmail.com</li>
             </ul>
           </div>
           <div>

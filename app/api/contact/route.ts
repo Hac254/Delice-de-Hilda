@@ -16,8 +16,8 @@ export async function POST(request: Request) {
         "api-key": process.env.BREVO_API_KEY || "",
       },
       body: JSON.stringify({
-        sender: { email: "noreply@carnicecakes.com", name: "Carnice Cakes Website" },
-        to: [{ email: "carnicecakes@gmail.com", name: "Carnice Cakes" }],
+        sender: { email: "noreply@delicedehilda@gmail.com", name: "Delice de Hilda Cakes Website" },
+        to: [{ email: "delicedehilda@gmail.com", name: "Delice de Hilda Carnice Cakes" }],
         subject: "New Contact Form Submission",
         htmlContent: `
           <h1>New Contact Form Submission</h1>
