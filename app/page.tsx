@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: "2",
-    name: "Frozen Theme Cake",
+    name: "Spiderman Theme Cake",
     description: "Beautiful Spiderman-themed cake with decorations. Perfect for heroes celebrations.",
     price: "KSH 8,500",
     image: "https://i.ibb.co/B5VdSLBr/image.png",
@@ -32,8 +32,8 @@ const products = [
   },
   {
     id: "3",
-    name: "Ballerina Birthday Cake",
-    description: "Elegant ballet-themed cake with pink drip and ballerina decorations.",
+    name: "Chocolate House Birthday Cake",
+    description: "Elegant chocolate house-themed cake with chocolate drip and chocolate decorations.",
     price: "KSH 6,500",
     image: "https://i.ibb.co/hh77JZT/image.png",
     category: "Character Cakes",
