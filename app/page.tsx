@@ -457,8 +457,8 @@ export default function Home() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm opacity-80">
-              <li>Migori Town, Calabash Hotel</li>
-              <li>Tel: +254 725 275934</li>
+              <li>Nairobi Town, Parklands</li>
+              <li>Tel: +254 757 844772</li>
               <li>Email: delicedehilda@gmail.com</li>
             </ul>
           </div>
