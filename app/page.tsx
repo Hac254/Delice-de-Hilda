@@ -16,18 +16,18 @@ import { CookpadIcon } from "@/components/cookpad-icon"
 const products = [
   {
     id: "1",
-    name: "Paw Patrol Birthday Cake",
-    description: "Two-tier celebration cake featuring Paw Patrol characters, perfect for children's birthdays.",
+    name: "Race Cars Birthday Cake",
+    description: "Two-tier celebration cake featuring Race Car characters, perfect for children's birthdays.",
     price: "KSH 3,000",
-    image: "https://i.ibb.co/pPLq9G6/Whats-App-Image-2025-01-19-at-3-06-34-PM-1.jpg",
+    image: "https://i.ibb.co/Ld9WMdRt/image.png",
     category: "Character Cakes",
   },
   {
     id: "2",
     name: "Frozen Theme Cake",
-    description: "Beautiful Frozen-themed cake with Elsa, Anna, and Olaf decorations. Perfect for winter celebrations.",
+    description: "Beautiful Spiderman-themed cake with decorations. Perfect for heroes celebrations.",
     price: "KSH 8,500",
-    image: "https://i.ibb.co/xDvmg1W/Whats-App-Image-2025-01-20-at-12-11-10-PM-2.jpg",
+    image: "https://i.ibb.co/B5VdSLBr/image.png",
     category: "Character Cakes",
   },
   {
@@ -35,7 +35,7 @@ const products = [
     name: "Ballerina Birthday Cake",
     description: "Elegant ballet-themed cake with pink drip and ballerina decorations.",
     price: "KSH 6,500",
-    image: "https://i.ibb.co/1vJ8KHG/Whats-App-Image-2025-01-20-at-12-11-10-PM-3.jpg",
+    image: "https://i.ibb.co/hh77JZT/image.png",
     category: "Character Cakes",
   },
   {
@@ -351,7 +351,7 @@ export default function Home() {
                   <Instagram className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://cookpad.com/ke/users/13261034"
+                  href="https://cookpad.com/eng/users/114337345"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
